@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: block;
+  width: 15%;
+  margin:10px auto;
+  /* border: 2px solid red; */
+}
+/* Navbar */
+#navbar {
+  /* border: 2px solid green; */
+  width: 430px;
+  margin: auto;
+}
+
+#navbar ul{
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li a {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(14, 14, 58);
+  margin: 5px 5px;
+  padding: 3px 3px;
+}
+
+/* Home */
+.container {
+  /* border: 2px solid red; */
+  height: 500px;
+  width: 750px;
+  margin: 40px 40px;
+  padding: 30px 20px;
+}
+
+h1{
+    margin: 80px 30px 30px 80px;
+    font-family: sans-serif;
+    font-size: 5.5em;
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5rem;
+    margin:20px 20px 20px 80px;
+    /* border: 2px solid green; */
+}
+
+.container>img{
+    position: absolute;
+    right: 20px;
+    height: 472px;
+    width: 625px;
+    top: 150px;
+    transform: skewy(3deg);
+    z-index: -1;
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 50px;
+    margin: 10px 280px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+/* Products */
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.item{
+  /* border: 2px solid green; */
+  display: inline;
+  margin: 10px 10px;
+  height: 245px;
+  background: #f0eaea61;
+  border: 2px solid rgb(226, 220, 220) ;
+  border-radius: 20px;
+}
+.cards{    
+  position: relative;
+  left: 198px;
+  top: -200px;
+  text-align: center;
+  display: inline-block;
+  width: 210px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  line-height: 50px;
+  font: 1.8rem bolder sans-serif;
+  /* border: 2px solid black; */
+}
+
+.cards label{
+  display: block;
+  font: 1.2rem bold sans-serif;
+}
+.cards input{
+  font: 1.2rem sans-serif;
+  background-color: rgba(247, 37, 37, 0.906);
+  color: beige;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.item img{
+  cursor: pointer;
+  height: 250px;
+  width: 270px;
+}
+
+
+
+/* ==================Top Catalog=================== */
+.TopCatlog{
+  margin: 50px 20px;
+}
+
+.TopCatlog h3{
+  margin: 20px 20px;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.items{
+  display: inline-block;
+  background-color: rgb(230, 225, 225);
+  border: 2px solid rgb(223, 218, 218) ;
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  text-align: center;
+  font:25px sans-serif;
+}
+
+.items img{
+  cursor: pointer;
+  height: 270px;
+  width: 270px;
+}
+
+/* ====================Footer====================== */
+
+.PrevNext input{
+  position: relative;
+  left: 30%;
+  width: 15vw;
+  margin: 10px 10px;
+  padding: 15px 15px;
+  border: none;
+  font: 1.2rem sans-serif;
+  background-color: rgba(247, 37, 37, 0.906);
+  color: beige;
+  cursor: pointer;
+}
